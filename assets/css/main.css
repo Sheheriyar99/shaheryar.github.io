@@ -86,12 +86,12 @@ a:hover {
 .navbar-logo {
   font-size: 1.3rem;
   font-weight: 800;
-  letter-spacing: -0.5px;
+  letter-spacing: 0px;
   color: var(--accent);
-  display: inline;
-  gap: 0.8rem;
+  display: inline-block;
   transition: transform 0.3s ease;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .navbar-logo:hover {
