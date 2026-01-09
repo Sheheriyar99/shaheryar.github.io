@@ -7,10 +7,11 @@ title: Home
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <h1>☁️ AWS Services & Cloud Engineering</h1>
-      <p>In-depth guides, tutorials, and best practices for AWS services</p>
+      <h1>Premium AWS & Cloud Services</h1>
+      <p>Expert tutorials, in-depth guides, and best practices for cloud architecture and AWS services</p>
       <div class="hero-buttons">
-        <a href="#blog" class="cta-button">Explore Articles</a>
+        <a href="#blog" class="cta-button">Start Reading</a>
+        <a href="/blog" class="cta-button secondary">All Articles</a>
       </div>
     </div>
   </div>
@@ -19,8 +20,8 @@ title: Home
 <!-- About Section -->
 <section class="about">
   <div class="container">
-    <h2>Master AWS Services</h2>
-    <p>Comprehensive tutorials and best practices for AWS services. Learn EC2, Lambda, S3, RDS, CloudFormation, CDK, and more. Explore cloud architecture, DevOps practices, and infrastructure automation.</p>
+    <h2>Premium Cloud Knowledge</h2>
+    <p>Deep-dive tutorials and expert insights into AWS services. Master EC2, Lambda, S3, databases, CDK, and advanced cloud architecture patterns with real-world examples.</p>
   </div>
 </section>
 
@@ -49,8 +50,8 @@ title: Home
 <!-- CTA Section -->
 <section class="cta-section">
   <div class="container">
-    <h2>Start Learning AWS Today</h2>
-    <p>Explore practical guides and tutorials for AWS services and cloud best practices.</p>
-    <a href="/blog" class="cta-button">View All Articles</a>
+    <h2>Dive Deep Into Cloud Services</h2>
+    <p>Premium content for developers and architects. Learn modern cloud patterns and AWS best practices.</p>
+    <a href="/blog" class="cta-button">Explore All Articles</a>
   </div>
 </section>
