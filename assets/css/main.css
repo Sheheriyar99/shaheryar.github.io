@@ -7,19 +7,18 @@
 }
 
 :root {
-  --light-bg: #ffffff;
-  --light-bg-secondary: #f8fafc;
-  --light-bg-tertiary: #f1f5f9;
-  --accent: #2563eb;
-  --accent-secondary: #1e40af;
-  --accent-light: #3b82f6;
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --border: rgba(0,0,0,0.08);
-  --gradient-1: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
-  --gradient-2: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-  --shadow-md: 0 4px 12px rgba(37, 99, 235, 0.08);
-  --shadow-lg: 0 12px 32px rgba(37, 99, 235, 0.12);
+  --dark-bg: #1a1a1a;
+  --dark-secondary: #2d2d2d;
+  --dark-tertiary: #3a3a3a;
+  --accent: #ffffff;
+  --accent-secondary: #e0e0e0;
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --border: rgba(255,255,255,0.1);
+  --gradient-1: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+  --gradient-2: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.4);
 }
 
 html {
@@ -29,7 +28,7 @@ html {
 body {
   font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
   color: var(--text-primary);
-  background: var(--light-bg);
+  background: var(--dark-bg);
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -53,7 +52,7 @@ a:hover {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.9));
+  background: linear-gradient(to bottom, rgba(26, 26, 26, 0.98), rgba(45, 45, 45, 0.95));
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   padding: 1.5rem 0;
@@ -61,7 +60,7 @@ a:hover {
   top: 0;
   z-index: 100;
   animation: slideDown 0.5s ease-out;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 @keyframes slideDown {
@@ -123,7 +122,7 @@ a:hover {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--gradient-1);
+  background: var(--accent);
   transition: width 0.3s ease;
 }
 
@@ -258,7 +257,7 @@ a:hover {
 
 .cta-button:hover {
   transform: translateY(-4px);
-  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.15);
 }
 
 .cta-button.secondary {
@@ -268,8 +267,8 @@ a:hover {
 }
 
 .cta-button.secondary:hover {
-  background: rgba(37, 99, 235, 0.05);
-  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.1);
 }
 
 /* About Section */
@@ -304,7 +303,7 @@ a:hover {
 /* Blog Section */
 .blog-section {
   padding: 6rem 2rem;
-  background: var(--light-bg);
+  background: var(--dark-bg);
   border-top: 1px solid var(--border);
 }
 
@@ -324,7 +323,7 @@ a:hover {
 }
 
 .blog-card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(248, 250, 252, 0.6));
+  background: linear-gradient(135deg, rgba(45, 45, 45, 0.8), rgba(58, 58, 58, 0.6));
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 2.5rem;
@@ -343,7 +342,7 @@ a:hover {
   right: -50%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(37, 99, 235, 0.08), transparent);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.08), transparent);
   transition: all 0.6s ease;
   border-radius: 50%;
 }
@@ -351,7 +350,7 @@ a:hover {
 .blog-card:hover {
   border-color: var(--accent);
   transform: translateY(-10px) scale(1.02);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 20px 50px rgba(255, 255, 255, 0.1);
 }
 
 .blog-card:hover::before {
@@ -565,16 +564,16 @@ a:hover {
 }
 
 .post-content code {
-  background: rgba(37, 99, 235, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
   font-family: 'Courier New', monospace;
   color: var(--accent-secondary);
-  border: 1px solid rgba(37, 99, 235, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .post-content pre {
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(0, 0, 0, 0.3);
   padding: 1.5rem;
   border-radius: 8px;
   overflow-x: auto;
@@ -614,24 +613,24 @@ a:hover {
 
 .tag {
   display: inline-block;
-  background: rgba(37, 99, 235, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--accent);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  border: 1px solid rgba(37, 99, 235, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   transition: all 0.3s ease;
 }
 
 .tag:hover {
   background: var(--accent);
-  color: var(--light-bg);
-  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.2);
+  color: var(--dark-bg);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
 }
 
 .related-posts {
   padding: 4rem 2rem;
-  background: var(--light-bg-secondary);
+  background: var(--dark-secondary);
   border-top: 1px solid var(--border);
 }
 
@@ -644,7 +643,7 @@ a:hover {
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(135deg, var(--light-bg-secondary) 0%, var(--light-bg) 100%);
+  background: linear-gradient(135deg, var(--dark-secondary) 0%, var(--dark-bg) 100%);
   color: var(--text-primary);
   padding: 5rem 2rem;
   text-align: center;
@@ -671,7 +670,7 @@ a:hover {
 
 /* Footer */
 .footer {
-  background: linear-gradient(to bottom, var(--light-bg-secondary), var(--light-bg));
+  background: linear-gradient(to bottom, var(--dark-secondary), var(--dark-bg));
   color: var(--text-primary);
   padding: 3rem 2rem 1rem;
   border-top: 1px solid var(--border);
