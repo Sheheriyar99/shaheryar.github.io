@@ -7,11 +7,10 @@ title: Home
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <h1>☁️ Cloud & AWS Engineering</h1>
-      <p>Exploring cloud architecture, DevOps practices, and infrastructure as code</p>
+      <h1>☁️ AWS Services & Cloud Engineering</h1>
+      <p>In-depth guides, tutorials, and best practices for AWS services</p>
       <div class="hero-buttons">
-        <a href="https://aws.amazon.com/developer/community/builders/" class="cta-button" target="_blank">Apply for AWS Community Builder</a>
-        <a href="#blog" class="cta-button secondary">Read My Blogs</a>
+        <a href="#blog" class="cta-button">Explore Articles</a>
       </div>
     </div>
   </div>
@@ -20,8 +19,8 @@ title: Home
 <!-- About Section -->
 <section class="about">
   <div class="container">
-    <h2>Welcome to My Technical Journey</h2>
-    <p>Hi! I'm <strong>Shaheryar Khalid</strong>, passionate about cloud computing, DevOps, and building scalable infrastructure. I share insights about AWS, Linux, Terraform, CDK, and real-world infrastructure challenges.</p>
+    <h2>Master AWS Services</h2>
+    <p>Comprehensive tutorials and best practices for AWS services. Learn EC2, Lambda, S3, RDS, CloudFormation, CDK, and more. Explore cloud architecture, DevOps practices, and infrastructure automation.</p>
   </div>
 </section>
 
@@ -50,8 +49,8 @@ title: Home
 <!-- CTA Section -->
 <section class="cta-section">
   <div class="container">
-    <h2>Ready to Apply for AWS Community Builder?</h2>
-    <p>Join a global network of AWS experts and community leaders. Share your knowledge, grow your skills, and make an impact.</p>
-    <a href="https://aws.amazon.com/developer/community/builders/" class="cta-button" target="_blank">Apply Now on AWS</a>
+    <h2>Start Learning AWS Today</h2>
+    <p>Explore practical guides and tutorials for AWS services and cloud best practices.</p>
+    <a href="/blog" class="cta-button">View All Articles</a>
   </div>
 </section>
