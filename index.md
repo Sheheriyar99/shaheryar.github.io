@@ -7,8 +7,8 @@ title: Home
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <h1>Premium AWS & Cloud Services</h1>
-      <p>Expert tutorials, in-depth guides, and best practices for cloud architecture and AWS services</p>
+      <h1>AWS & Cloud Services</h1>
+      <p>Expert in-depth guides and best practices for cloud architecture and AWS services</p>
       <div class="hero-buttons">
         <a href="#blog" class="cta-button">Start Reading</a>
         <a href="/blog" class="cta-button secondary">All Articles</a>
@@ -20,8 +20,8 @@ title: Home
 <!-- About Section -->
 <section class="about">
   <div class="container">
-    <h2>Premium Cloud Knowledge</h2>
-    <p>Deep-dive tutorials and expert insights into AWS services. Master EC2, Lambda, S3, databases, CDK, and advanced cloud architecture patterns with real-world examples.</p>
+    <h2>Cloud Knowledge</h2>
+    <p>Expert insights into AWS services. Master EC2, Lambda, S3, databases, CDK, and advanced cloud architecture patterns with real-world examples.</p>
   </div>
 </section>
 
@@ -50,8 +50,8 @@ title: Home
 <!-- CTA Section -->
 <section class="cta-section">
   <div class="container">
-    <h2>Dive Deep Into Cloud Services</h2>
-    <p>Premium content for developers and architects. Learn modern cloud patterns and AWS best practices.</p>
+    <h2>Cloud Services</h2>
+    <p>Content for developers and architects. Learn modern cloud patterns and AWS best practices.</p>
     <a href="/blog" class="cta-button">Explore All Articles</a>
   </div>
 </section>
