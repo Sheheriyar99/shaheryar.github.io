@@ -1,4 +1,4 @@
-l1---
+---
 layout: post
 title: "Building Scalable AWS Infrastructure with CDK: A Modular Stack Architecture"
 date: 2025-11-15
